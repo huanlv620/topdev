@@ -1,0 +1,182 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.mt {
+	margin-top: 3em;
+}
+
+.text-decoration {
+	text-decoration: none !important;
+}
+a h4 {
+	text-decoration: none !important;
+}
+/* header */
+#header {
+	padding-left: 53em !important;
+}
+
+#header .header-link{
+	color: white;
+	text-decoration: none;
+	line-height: 3em;
+	text-transform: uppercase;
+	margin-left: 2em;
+}
+
+#header .header-link:hover{
+	opacity: 0.5;
+}
+
+
+/* menu */
+#menu {
+	border-radius: 4px;
+}
+
+.menu-item {
+	text-transform: capitalize;
+	border-right: 1px solid white;
+	color: white;
+	cursor: pointer	;
+}
+
+.menu-item:hover{
+	opacity: 0.5;
+}
+
+
+
+.row .col-2 a img{
+	float: right;
+	margin-right:0.5em;
+}
+.row .three3{
+	overflow: hidden;
+	height: 360px !important;
+	position: relative;
+}
+.row .three3 a img
+{
+	transition: 0.5s ease;
+	opacity: 0.9;
+}
+.row .three3 a img:hover
+{
+	transform: scale(1.1);
+	/*opacity: 0.8;*/
+}
+.container .row .three3 .system,
+.container .row .three3 .system{
+	/*background: yellow;*/
+	color:white;
+	position: absolute;
+	bottom: 55px;
+	left: 15px;
+	line-height: 1.5;
+	font-size: 26px;
+}
+.container .row .three3 .date,
+.container .row .three3 .date{
+	/*background: yellow;*/
+	color:white;
+	position: absolute;
+	bottom:30px;
+	left: 15px;
+}
+.container .row .three3 a .img2{
+	background: yellow;
+	/*opacity: 0.5;*/
+	margin-right: 4em;
+	/*transition: */
+}
+
+.row .box{
+	width:18.8%;
+	height: 200px;
+	/*background: blue;*/
+}
+.row .boxMr{
+	margin: 0 1.5%;
+}
+.row .box  a{
+	text-decoration: none;
+	color: black;
+	float: left;
+}
+.row .box  a h4{
+	font-size: 16px ;
+	margin-top: 0.3em;
+	float: left;
+}
+.row .box a h4:hover{
+	color: red;
+}
+
+.row .col-4 h3 a{
+	text-decoration: none;
+	color: black;
+}
+.row .col-4 h4 a{
+	text-decoration: none;
+	color: black;
+	font-size: 26px;
+}
+.row .col-4 span{
+	/*text-decoration: none;*/
+	/*color: white;*/
+}
+.row .laptrinh a img{
+	/*opacity: 0.7;*/
+	/*transition: 0.5s ease;*/
+	/*transform: translateZ(100px);*/
+	transform: translateZ(600px);
+}
+/*.row .laptrinh a img:hover{
+	
+	
+}*/
+.row .laptrinh,
+.row .hr,
+.row .pv{
+	position: relative;
+}
+.row .laptrinh h4 a{
+	position: absolute;
+	bottom:  3em ;
+}
+.row .laptrinh span{
+	position: absolute;
+	bottom:  4em;
+}
+.row .hr h4 a{
+	position: absolute;
+	bottom:  3em;
+	color: white;
+}
+.row .hr span{
+	position: absolute;
+	bottom:  4em;
+}
+.row .pv h4 a{
+	position: absolute;
+	bottom:  2em;
+	font-size: 25px;
+	color: white;
+}
+.row .pv span{
+position: absolute;
+	bottom:  1em;
+}
+@media screen and (max-width: 576px){
+	.container-fluid .container .nav .nav-link{
+		display: none;
+		background: blue !important;
+		opacity: 0;
+	}
+
+	
+}
+
